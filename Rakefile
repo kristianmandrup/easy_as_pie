@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "easy_as_pie"
   gem.homepage = "http://github.com/kristianmandrup/easy_as_pie"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Rails asset wrapper for jQuery easy-pie-chart}
+  gem.description = %Q{Makes it easy to add Pie charts to Rails 3+ apps}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
   # dependencies defined in Gemfile
