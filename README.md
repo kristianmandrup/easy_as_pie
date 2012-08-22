@@ -48,15 +48,20 @@ Get started
 
 Follow Configuration instructions above and also include jQuery 1.7+.
 
-The second step is to add a element to your site to represent chart and add the `data-percent` attribute with the percent number the pie chart should have:
+Add the pie-chart element to your site to represent chart and add the `data-percent` attribute with the percent number the pie chart should have:
 
     <div class="chart" data-percent="73">73%</div>
 
 The engine adds a view helper `easy_as_pie(percent, label = nil)` to all Rails views ;)
+Use as follows
+
+Simple HAML example:
 
 ```haml
 = easy_as_pie 73
 ```
+
+ERB examples:
 
 Or with a custom label:
 
@@ -64,7 +69,11 @@ Or with a custom label:
 <%= easy_as_pie (6/24.0 * 100), '6 done' %>
 ```
 
-6 out of 24 done is 25% :)
+Customize `div` options, fx css `class`:
+
+```erb
+<%= easy_as_pie (6/24.0 * 100), '6 done', :class => 'pie-chart' %>
+```
 
 Finally you have to initialize the plugin with your desired configuration:
 
@@ -150,7 +159,7 @@ $(function() {
         $('.chart').data('easyPieChart').update(40);
     }, 5000);
 });
-```
+``
 
 ## Contributing to easy_as_pie
  
