@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "easy_as_pie.gemspec",
     "lib/easy_as_pie.rb",
     "lib/easy_as_pie/engine.rb",
     "lib/easy_as_pie/view_helper.rb",
