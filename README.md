@@ -139,6 +139,7 @@ Public plugin methods
 
 If you want to update the current percentage of the a pie chart, you can call the `update method. The instance of the plugin is saved in the jQuery-data.
 
+```javascript
 <script type="text/javascript">
 $(function() {
     //create instance
@@ -151,6 +152,7 @@ $(function() {
     }, 5000);
 });
 </script>
+```
 
 ## Contributing to easy_as_pie
  
