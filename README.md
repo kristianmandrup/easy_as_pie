@@ -90,7 +90,7 @@ You can pass a set of these options to the initialize function to set a custom b
     <tr>
         <td><strong>barColor</strong></td>
         <td>#ef1e25</td>
-        <td>The color of the curcular bar. You can pass either a css valid color string like rgb, rgba hex or string colors. But you can also pass a function that accepts the current percentage as a value to return a dynamically generated color.</td>
+        <td>The color of the circular bar. You can pass either a css valid color string like rgb, rgba hex or string colors. But you can also pass a function that accepts the current percentage as a value to return a dynamically generated color.</td>
     </tr>
     <tr>
         <td><strong>trackColor</strong></td>
@@ -152,7 +152,7 @@ $(function() {
     }, 5000);
 });
 </script>
-```
+``
 
 ## Contributing to easy_as_pie
  
